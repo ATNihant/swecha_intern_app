@@ -1,6 +1,12 @@
-# 🧑‍💻 Intern Management Dashboard – Streamlit App
+# 🧑‍💻 Intern Management Dashboard
 
 A role-based dashboard built using **Streamlit** for managing AI Developer interns and Tech Leads across colleges, including task assignments, progress tracking, and data insights.
+For my Tech Lead Hackathon at Swecha AI
+### Team Members
+- [nihantat](https://code.swecha.org/nihantat)
+- [sidharthasgl](https://code.swecha.org/sidharthasgl)
+
+Deployed at - https://swechasoai.streamlit.app/
 
 ---
 
@@ -26,15 +32,20 @@ A role-based dashboard built using **Streamlit** for managing AI Developer inter
 ```
 intern-dashboard/
 │
-├── main.py
+├── app.py
+│
+├── pages/
+│   └── registration.py
+│
 ├── dashboards/
-│   ├── tech_lead_dashboard.py
-│   └── ai_developer_dashboard.py  # Optional or under development
+│   ├── admin_dashboard.py
+│   ├── tech_lead_dashboard.py
+│   └── ai_developer_dashboard.py
 │
 ├── data/
-│   ├── users.csv
-│   ├── issues.csv
-│   └── help_requests.csv
+│   ├── users.csv
+│   ├── issues.csv
+│   └── help_requests.csv
 │
 ├── requirements.txt
 └── README.md
